@@ -41,9 +41,9 @@ def get_env_or_raise(key):
 # export BKPAAS_APP_ID=text
 # export BKPAAS_APP_SECRET=550FK1kg5h5Bpn2brDPJrm7vjS9WlBQb9ovT
 # 应用 ID
-APP_CODE = os.getenv("BKPAAS_APP_ID", "text")
+APP_CODE = os.getenv("BKPAAS_APP_ID", "text0713")
 # 应用用于调用云 API 的 Secret
-SECRET_KEY = os.getenv("BKPAAS_APP_SECRET", "550FK1kg5h5Bpn2brDPJrm7vjS9WlBQb9ovT")
+SECRET_KEY = os.getenv("BKPAAS_APP_SECRET", "g38gp7L8fQZ3k3miprIrWrSRPWpMif6LVJXI")
 
 # SaaS运行版本，如非必要请勿修改
 RUN_VER = "open"
