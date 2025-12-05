@@ -1,0 +1,77 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# 虚拟环境
+1venv/
+bk-env/
+myenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日志文件
+logs/
+*.log
+
+# 静态文件（开发时生成）
+staticfiles/
+media/
+
+# 数据库文件
+*.db
+*.sqlite3
+
+# 备份文件
+*.bak
+*.backup
+
+# 临时文件
+*.tmp
+*.temp
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+
+# 蓝鲸特定
+celerybeat-schedule
+celerybeat.pid
