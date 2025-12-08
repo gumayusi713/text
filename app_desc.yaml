@@ -12,6 +12,9 @@ app:
       height: 720
       isMax: true
       width: 1280
+image:
+  # 添加镜像配置
+  repository: docker.dev-x86.cwbk5.com/bkpaas/docker/text0713/default:main-2512051733  # 例如：docker.io/your-org/python3_vue_saas1
 modules:
 - name: default
   isDefault: true
